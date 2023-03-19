@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="দোকানদারের লাভ ক্ষতি হিসাবের অ্যাপ"
+        android:textSize="40dp"
+        android:background="#FF1B00"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:padding="2dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="পণ্যর নাম দিন:"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textColor="#000000"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="নাম দিন"
+        android:inputType="text"
+        >
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvSellPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="পণ্যরটির বিক্রয়মূল্য দিন:"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textColor="#000000"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/edSellPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="মূল্য দিন"
+        android:inputType="numberDecimal"
+        >
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvBuyPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="পণ্যরটির ক্রয়মূল্য দিন:"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textColor="#000000"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/edBuyPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="মূল্য দিন"
+        android:inputType="numberDecimal"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/resultBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ক্লিক করে ফলাফল দেখুন "
+        android:textSize="20dp"
+        android:backgroundTint="#088A26"
+        ></Button>
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textColor="#000000"
+        ></TextView>
+
+
+
+
+
+
+
+
+</LinearLayout>
