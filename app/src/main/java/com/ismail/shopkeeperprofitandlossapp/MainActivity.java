@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
                 else{
 
-                    tvDisplay.setText(edNameS+" এই পণ্যটি বিক্রয় করে লস হয়েছে = "+profit+ " টাকা\n"+"এবং শতকরায় লস হয়েছে ="+profitPersent+" শতাংশ " );
+                    tvDisplay.setText(edNameS+" এই পণ্যটি বিক্রয় করে লস হয়েছে = "+profit+ "\n"+"এবং শতকরায় লস হয়েছে ="+profitPersent+" শতাংশ " );
 
                 }
 

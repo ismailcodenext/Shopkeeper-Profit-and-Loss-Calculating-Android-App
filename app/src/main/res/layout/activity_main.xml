@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="দোকানদারের লাভ ক্ষতি হিসাবের অ্যাপ"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:background="#FF1B00"
         android:gravity="center"
         android:textColor="#ffff"
